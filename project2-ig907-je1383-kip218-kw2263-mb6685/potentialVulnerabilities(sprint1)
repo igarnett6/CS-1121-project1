@@ -1,0 +1,3 @@
+1. Input boxes for inputting login data could be vulnerable to sql injection.
+2. Address starts with http and not https, meaning server is not encrypted. 
+3. Textbox after login is vulnerable to command injection.

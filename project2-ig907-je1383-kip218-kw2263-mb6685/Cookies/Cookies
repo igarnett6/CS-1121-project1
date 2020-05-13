@@ -1,0 +1,3 @@
+Sniffing Cookies using Wireshark
+
+  We found out that we could use Wireshark to access another user's password and cookies if they signed in while the Wireshark was sniffing. This means that we can steal the user's account information, including cookies, if they sign in while we sniff using Wireshark.
