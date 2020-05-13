@@ -1,0 +1,3 @@
+I opened the file with wireshark and followed the 404 not found, then read the flag from the tcp stream:
+
+https://i.imgur.com/hxYXe0Z.png
